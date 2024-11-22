@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scene/OutdoorsScene.unity
-    guid: 8124e5870f4fd4c779e7a5f994e84ad1
+    path: Assets/Scene/Menu.unity
+    guid: dd390c7058047f64ca4b9ba280b82e70
+  - enabled: 1
+    path: Assets/Scene/Prototipo.unity
+    guid: 462d70ae91825154c942f31e003d96fb
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 35845fe01580c41289b024647b1d1c53, type: 3}
   m_UseUCBPForAssetBundles: 0
