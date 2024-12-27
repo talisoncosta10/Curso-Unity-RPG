@@ -390,6 +390,48 @@ MonoBehaviour:
   - {fileID: 8300000, guid: d15f7338d693f0343843a6b9096d27f6, type: 3}
   waterSteps: []
   currentList: []
+--- !u!114 &92751607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92751596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: abf829d4894f17945a8125faaad469ce, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 14a0bcd8-ab90-45c0-9637-06279f0cc070
+    m_ActionName: New action map/Mover
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 978c7e9a-1859-4f82-828d-a342d949f80e
+    m_ActionName: New action map/Pular
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 36094dfc-0cd1-4352-bb88-8daa562e5646
+    m_ActionName: New action map/GirarCamera
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: New action map
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &108867526
 GameObject:
   m_ObjectHideFlags: 0
@@ -527,6 +569,8 @@ MonoBehaviour:
       Owner: {fileID: 302295694}
       Enabled: 1
       Input:
+        InputAction: {fileID: 0}
+        Gain: 1
         LegacyInput: Mouse X
         LegacyGain: 200
         CancelDeltaTime: 0
@@ -538,6 +582,8 @@ MonoBehaviour:
       Owner: {fileID: 302295694}
       Enabled: 1
       Input:
+        InputAction: {fileID: 0}
+        Gain: 1
         LegacyInput: Mouse Y
         LegacyGain: -200
         CancelDeltaTime: 0
@@ -549,6 +595,8 @@ MonoBehaviour:
       Owner: {fileID: 302295694}
       Enabled: 1
       Input:
+        InputAction: {fileID: 0}
+        Gain: 1
         LegacyInput: Mouse ScrollWheel
         LegacyGain: 200
         CancelDeltaTime: 0
@@ -556,6 +604,8 @@ MonoBehaviour:
       Driver:
         AccelTime: 0
         DecelTime: 0
+  PlayerIndex: -1
+  AutoEnableInputs: 1
 --- !u!114 &302295692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1507,6 +1557,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fe8e5b8b2637d1a4c893a0911f466bda, type: 3}
       insertIndex: -1
       addedObject: {fileID: 92751606}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fe8e5b8b2637d1a4c893a0911f466bda, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 92751607}
     - targetCorrespondingSourceObject: {fileID: 6796194664811587152, guid: fe8e5b8b2637d1a4c893a0911f466bda, type: 3}
       insertIndex: -1
       addedObject: {fileID: 693858979}
